@@ -1,0 +1,185 @@
+date,location,Zip Code,state,year,fatalities,injured,totalvictims,percfatal,venue,priorsignsofpossiblementalillnes,weaponsobtainedlegally,race,gender,age,legalgun,handguns,revolvers,shotguns,assaultguns,religious,school,workplace,poss_mental,minority,ar_ban,bradybill,depmed,offdepmed,med,reasonmed,onoroff,timeonmed,arrested,suicide,police,highcapacityclip,deathpenalty,statepermittopurchase,firearmregistration,assaultweaponlaw,ownerlicenserequired,concealedcarryweaponccwpermitsis,opencarry,nfaweaponsrestricted,peaceablejourneylaws,castledoctrinestandyourground,gunswithhighcapacitymagizines,assaultweaponsbydefinitionofnewl,Type
+20151001,"Roseburg, OR",,OR,2015,9,9,18,0.5,School,Yes,Yes,white,Male,26,1,1,0,0,1,0,1,0,1,0,0,1,1,1,None,Depression,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,0,2,2,Mass
+20150716,"Chattanooga, TN",,TN,2015,5,2,7,0.714285714,Military,Yes,Yes ,other,Male,24,1,1,0,0,2,0,0,1,1,1,0,1,1,1,None,Depression,None,None,0,0,1,1,1,0,0,0,0,1,1,0,0,1,3,1,Mass
+20150617,"Charleston, SC",,SC,2015,9,1,10,0.9,Religious,No,Yes,white,Male,21,1,1,0,0,0,1,0,0,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,Mass
+20141024,"Marysville, WA",,WA,2014,5,1,6,0.833333333,School,No,No,Native American,Male,15,0,1,0,0,0,0,1,0,1,1,0,1,1,1,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,1,0,0,0,1,Mass
+20140220,"Alturas, CA",,CA,2014,4,2,6,0.666666667,Other,Yes,Yes,black,Female,44,1,2,0,0,0,1,0,0,1,1,1,1,1,1,None,Depression,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,1,Mass
+20131217,"Reno, NV",,NV,2013,1,2,3,0.333333333,Work,Yes,No,white,male,51,0,2,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,Shooter
+20131213,"Centennial, CO",,CO,2013,1,0,1,1,School,Yes,yes,white,male,18,1,0,0,0,1,0,1,0,1,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,1,1,1,Shooter
+20131101,"Los Angeles, CA",,CA,2013,1,3,4,0.25,Work,No,yes,other,male,23,1,0,0,1,0,0,0,1,0,1,1,1,1,1,None,Depression,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20131026,"Albuquerque, NM",,NM,2013,0,4,4,0,Work,No,yes,white,male,35,1,3,0,2,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20131021,"Sparks, NV",,NV,2013,1,2,3,0.333333333,School,Yes,yes,other,male,12,1,1,0,0,0,0,1,0,1,1,0,1,0,0,None,None,None,None,0,1,0,0,1,1,1,0,1,1,0,1,1,1,0,0,Shooter
+20130916,"Washington, D.C.",,DC,2013,13,8,21,0.619047619,Military,Yes,Yes,Latino,Male,34,1,1,0,1,0,0,0,1,1,1,1,1,1,1,None,Depression,None,None,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,Mass
+20130824,"Lake Butler, FL",,FL,2013,2,2,4,0.5,Work,No,yes,white,male,72,1,0,0,1,1,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,Shooter
+20130805,"Saylorsburg, PA",,PA,2013,3,2,5,0.6,Work,No,yes,other,male,59,1,1,0,1,0,0,0,1,0,1,0,1,1,1,None,Depression,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20130726,"Hialeah, Florida",,FL,2013,7,0,7,1,Work,Yes,Yes,white,Male,42,1,1,0,0,0,0,0,0,0,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,Mass
+20130621,"Greenville, NC",,NC,2013,0,4,4,0,Work,Yes,No,white,male,23,0,0,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,1,0,0,0,1,1,1,0,1,0,0,Shooter
+20130607,"Santa Monica, California",,CA,2013,6,3,9,0.666666667,Work,Yes,Yes ,black ,Male,23,1,0,1,0,1,0,0,0,1,1,1,1,1,1,None,Depression,None,None,0,0,1,1,1,1,1,1,0,1,1,1,0,1,1,1,Spree
+20130526,"Brady, TX",,TX,2013,2,5,7,0.285714286,Work,No,yes,other,male,23,1,1,0,1,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20130421,"Federal Way, Washington",,WA,2013,5,0,5,1,Work,No,Yes,white,Male,27,1,1,0,1,0,0,0,0,0,0,0,1,0,0,None,None,None,None,0,0,1,1,1,0,0,0,0,0,1,1,1,1,1,0,Mass
+20130412,"Christiansburg, VA",,VA,2013,0,2,2,0,School,No,yes,other,male,22,1,0,0,0,1,0,1,0,0,1,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,1,0,1,0,1,1,1,1,0,Shooter
+20130313,"Herkimer County, New York",,NY,2013,5,2,7,0.714285714,Other,No,Yes,white,Male,64,1,0,0,1,0,0,1,0,0,0,1,1,0,0,None,None,None,None,0,0,1,0,0,1,0,1,0,1,1,1,0,1,0,0,Spree
+20130130,"Phoenix, AZ",,AZ,2013,2,1,3,0.666666667,Work,Yes,yes,white,male,70,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20130110,"Taft, CA",,CA,2013,0,2,2,0,School,Yes,yes,white,male,16,1,0,0,0,1,0,1,0,1,0,1,1,0,1,None,Depression,None,None,1,0,0,1,1,1,1,1,0,1,1,1,0,1,1,1,Shooter
+20121221,"Frankstown Township, PA",,PA,2012,3,3,6,0.5,Work,Yes,yes,white,male,44,1,2,0,0,0,0,0,1,1,0,0,1,0,1,None,Depression,None,None,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20121215,"Birmingham, AL",,AL,2012,0,3,3,0,Work,Yes,yes,white,male,38,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Shooter
+20121214,"Newtown, Connecticut",,CT,2012,28,2,30,0.93330002,School,Yes,No,white,Male,20,0,2,0,1,1,0,1,0,0,0,1,1,0,0,None,None,None,None,0,1,0,1,0,1,0,1,0,1,1,1,0,1,3,2,Mass
+20121211,"Happy Valley, OR",,OR,2012,2,1,3,0.666666667,Work,No,yes,white,male,22,1,0,0,1,0,0,0,1,0,0,0,1,0,1,None,Depression,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,Shooter
+20121106,"Fresno, CA",,CA,2012,2,2,4,0.5,Work,No,yes,other,male,42,1,1,0,0,0,0,0,1,0,1,1,1,0,1,None,Depression,None,None,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20121021,"Brookfield, WI",,WI,2012,3,4,7,0.428571429,Work,Yes,yes,other,male,45,1,1,0,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,Spree
+20121018,"Casselberry, FL",,FL,2012,3,1,4,0.75,Work,No,yes,other,male,36,1,1,0,0,1,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,Spree
+20120927,"Minneapolis, Minnesota",,MN,2012,7,1,8,0.875,Work,Yes,Yes,white,Male,36,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,Mass
+20120831,"Old Bridge, NJ",,NJ,2012,2,0,2,1,Work,No,No,other,male,23,0,1,0,1,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,0,1,1,1,0,1,1,1,0,0,0,0,Shooter
+20120827,"Baltimore, MD",,MD,2012,0,1,1,0,School,Yes,Yes,white,male,15,1,0,0,0,1,0,1,0,1,0,1,1,0,0,None,None,None,None,1,0,0,1,1,1,1,1,0,1,1,0,0,0,1,1,Shooter
+20120805,"Oak Creek, Wisconsin",,WI,2012,7,3,10,0.69999999,Religious,Yes,Yes,white,Male,40,1,1,0,0,0,1,0,0,1,0,0,1,0,0,None,None,None,None,0,1,0,1,0,0,0,0,0,1,1,0,0,1,1,0,Mass
+20120720,"Aurora, Colorado",,CO,2012,12,58,70,0.1714,Other,Yes,Yes,white,Male,24,1,2,0,1,1,0,0,0,1,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,0,1,1,2,1,Mass
+20120717,"Tuscaloosa, AL",,AL,2012,0,18,18,0,Work,Yes,Yes,white,male,44,1,0,0,1,0,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Shooter
+20120530,"Seattle, WA",,WA,2012,5,0,5,1,Work,Yes,Yes,white,male,40,1,2,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,Mass
+20120406,"Tulsa, OK",,OK,2012,3,2,5,0.6,Work,Yes,Yes,white,male,32,1,2,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,Spree
+20120402,"Oakland, California",,CA,2012,7,3,10,0.69999999,School,Yes,Yes,Asian,Male,43,1,1,0,0,0,0,1,0,1,1,1,1,1,1,Zoloft,Depression,On,2 weeks,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Mass
+20120323,"Durham, NC",,NC,2012,2,2,4,0.5,Work,No,Yes,white,male,24,1,1,0,0,1,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,1,0,0,0,1,1,1,0,1,1,1,Shooter
+20120308,"Pittsburgh, PA",,PA,2012,1,7,8,0.125,Work,No,Yes,white,male,30,1,2,0,0,0,0,0,1,0,0,0,1,0,1,None,Depression,None,None,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20120227,"Chardon, OH",,OH,2012,3,3,6,0.5,School,No,Yes,white,male,17,1,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,1,0,1,0,0,Spree
+20120222,"Norcross, Georgia",,GA,2012,5,0,5,1,Other,Yes,Yes,Asian,Male,59,1,1,0,0,0,0,0,0,1,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Mass
+20120208,"Middleton, NY",,NY,2012,0,1,1,0,Work,No,Yes,white,male,43,1,0,0,0,1,0,0,1,0,0,1,1,0,0,None,None,None,None,0,0,1,1,0,1,0,1,0,1,1,1,0,1,1,0,Shooter
+20120113,"Star, NC",,NC,2012,3,1,4,0.75,Work,Yes,Yes,white,male,50,1,0,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,1,1,1,0,0,0,1,1,1,0,1,1,0,Spree
+20111216,"Irwindale, CA",,CA,2011,2,2,4,0.5,Work,No,Yes,other,male,51,1,1,0,0,0,0,0,1,0,1,1,1,0,1,None,Depression,None,None,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20111014,"Seal Beach, California",,CA,2011,8,1,9,0.88889998,Other,Yes,Yes,white,Male,42,1,2,1,0,0,0,0,0,1,0,1,1,1,1,Celexa,Depression,Off,Month,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Mass
+20111005,"Cupertino, CA",,CA,2011,3,7,10,0.3,Work,No,Yes,other,male,49,1,1,0,2,1,0,0,1,0,1,1,1,0,1,None,Depression,None,None,0,0,1,1,1,1,1,1,0,1,1,1,0,1,1,1,Spree
+20110913,"Girard, KS",,KS,2011,0,1,1,0,Work,No,Yes,white,male,48,1,3,0,1,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20110906,"Carson City, Nevada",,NV,2011,5,7,12,0.41670001,Other,Yes,Yes,Latino,Male,32,1,0,1,0,2,0,0,0,1,1,0,1,0,0,None,None,None,None,0,1,0,1,1,1,1,0,1,1,0,1,1,1,2,2,Mass
+20110827,"Queens, NY",,NY,2011,0,11,11,0,Work,No,Yes,other,male,22,1,1,0,0,1,0,0,1,0,1,1,1,0,0,None,None,None,None,1,0,0,1,0,1,0,1,0,1,1,1,0,1,2,1,Shooter
+20110807,"Copley Township, OH",,OH,2011,7,1,8,0.875,Work,Yes,Yes,white,male,51,1,2,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,Mass
+20110408,"Chester, PA",,PA,2011,2,8,10,0.2,School,Yes,Yes,other,male,16,1,1,0,0,1,0,1,0,1,1,0,1,0,1,None,Depression,None,None,1,0,0,1,1,0,0,0,0,1,1,0,1,1,1,0,Shooter
+20110108,"Tucson, Arizona",,AZ,2011,6,13,19,0.31580001,Other,Yes,Yes,white,Male,22,1,1,0,0,0,0,0,0,1,0,0,1,1,1,Prozac,Depression,Off,Month,1,0,0,1,1,0,0,0,0,1,1,0,1,1,1,0,Mass
+20110105,"Omaha, NE",,NE,2011,1,1,2,0.5,School,Yes,No,white,male,17,0,1,0,0,0,0,1,0,1,0,0,1,0,0,None,None,None,None,0,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,Shooter
+20101214,"Panama City, FL",,FL,2010,0,4,4,0,School,No,No,white,male,56,0,1,0,0,1,0,1,0,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,Shooter
+20101029,"Reno, NV",,NV,2010,0,3,3,0,Work,No,Yes,white,male,45,1,2,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,1,1,0,1,1,0,1,1,1,0,0,Shooter
+20101013,"Washington, DC",,DC,2010,1,1,2,0.5,Work,No,Yes,black,Male,38,1,1,0,0,0,0,0,1,0,1,1,1,0,0,None,None,None,None,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,Shooter
+20101008,"Carlsbad, CA",,CA,2010,0,2,2,0,School,Yes,Yes,white,male,41,1,1,0,0,0,0,1,0,1,0,1,1,0,1,None,Depression,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20101004,"Gainesville, FL",,FL,2010,1,5,6,0.166666667,Work,Yes,Yes,white,male,24,1,1,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0,Shooter
+20100922,"Crete, NE",,NE,2010,0,3,3,0,Work,Yes,Yes,other,male,26,1,1,0,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,Shooter
+20100920,"El Paso, TX",,TX,2010,1,1,2,0.5,Work,Yes,Yes,white,male,63,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20100909,"Philadelphia, PA",,PA,2010,2,1,3,0.666666667,Work,No,Yes,other,female,43,1,1,0,0,0,0,0,1,0,1,0,1,0,1,None,Depression,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20100803,"Manchester, Connecticut",,CT,2010,9,2,11,0.81819999,Work,No,Yes,black,Male,34,1,2,0,0,0,0,0,1,0,1,1,1,1,1,Prozac/Adderol,Depression/ADHD,On,Month,0,1,0,1,1,1,0,1,0,1,1,1,0,1,1,0,Mass
+20100712,"Albuquerque, NM",87123,NM,2010,2,4,6,0.333333333,Work,No,Yes,white,male,37,1,1,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20100606,"Hialeah, FL",,FL,2010,4,3,7,0.571428571,Work,No,Yes,other,male,37,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,Mass
+20100527,"New York Mills, NY",,NY,2010,0,1,1,0,Work,No,Yes,white,male,79,1,1,0,0,0,0,0,1,0,0,1,1,0,0,None,None,None,None,0,0,1,0,0,1,0,1,0,1,1,1,0,1,0,0,Shooter
+20100517,"Boulder, CO",,CO,2010,2,0,2,1,Work,Yes,Yes,white,male,53,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20100507,"Bloomfield, NJ",,NJ,2010,0,1,1,0,Work,Yes,Yes,other,male,17,1,1,0,0,1,0,0,1,1,1,1,1,0,0,None,None,None,None,0,0,1,1,0,1,1,1,0,1,1,1,0,0,2,1,Shooter
+20100419,"Knoxville, TN",,TN ,2010,1,2,3,0.333333333,Work,No,yes,other,Male,38,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Shooter
+20100310,"Tarpon Springs, FL",,FL,2010,1,0,1,1,Work,No,yes,other,Female,41,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,Shooter
+20100309,"Columbus, OH",,OH,2010,1,1,2,0.5,School,No,yes,white,Male,50,1,2,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,Shooter
+20100304,"Arlington, VA",,VA,2010,0,2,2,0,Military,No,yes,white,Male,36,1,1,0,0,1,0,0,1,0,0,0,1,0,0,None,None,None,None,0,0,1,1,1,0,0,1,0,1,0,1,1,1,1,0,Shooter
+20100223,"Littleton, CO",,CO,2010,0,2,2,0,School,Yes,yes,white,Male,32,1,0,0,1,0,0,1,0,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20100212,"Hunstville, AL",,AL,2010,3,3,6,0.5,School,Yes,yes,white,Female,44,1,1,0,0,0,0,1,0,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Spree
+20100114,"Brooksville, FL",,FL,2010,3,2,5,0.6,Work,No,yes,white,Male,55,1,1,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,Spree
+20100112,"Kennesaw, GA",,GA,2010,3,2,5,0.6,Work,No,yes,white,Male,60,1,2,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Spree
+20100107,"St. Louis, MO",,MO,2010,3,5,8,0.375,Work,No,yes,white,Male,51,1,2,0,1,1,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20100104,"Las Vegas, NV",,NV,2010,1,1,2,0.5,Military,No,yes,white,Male,66,1,0,0,0,1,0,0,1,0,0,0,1,0,0,None,None,None,None,0,0,1,1,1,1,1,0,1,1,0,1,1,1,1,0,Shooter
+20091223,"Baton Rouge, LA",,LA,2009,2,1,3,0.666666667,Work,Yes,yes,white,Male,53,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter 
+20091129,"Parkland, Washington",,WA,2009,4,1,5,0.80000001,Other,Yes,No,black,Male,37,0,1,1,0,0,0,0,0,1,1,0,1,1,1,Cymbalta,Depression,On,Month,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,Mass
+20091110,"Tualatin, OR",,OR,2009,1,2,3,0.333333333,Work,Yes,yes,white,Male,39,1,1,0,1,1,0,0,1,1,0,0,1,0,1,None,Depression,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,0,1,1,Shooter
+20091107,"Vali, CO",,CO,2009,1,3,4,0.25,Work,Yes,No,white,Male,63,0,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20091106,"Smith and Hills Orlando, FL",,FL,2009,1,5,6,0.166666667,Work,No,No,other,Male,40,0,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,Shooter
+20091105,"Fort Hood, Texas",,TX,2009,13,30,43,0.30230001,Other,Yes,Yes,white,Male,39,1,1,0,0,0,0,0,0,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,0,1,1,1,0,Mass
+20090911,"Owosso, MI",,MI,2009,2,0,2,1,Work,Yes,yes,white,Male,33,1,3,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,0,0,1,1,0,0,1,1,0,1,1,0,0,Spree
+20090804,"Collier Township, PA",,PA,2009,3,9,12,0.25,Work,Yes,yes,white,Male,48,1,1,0,0,0,0,0,1,1,0,0,1,0,1,None,Depression,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20090725,"Club LT Tranz, TX",,TX,2009,1,2,3,0.333333333,Work,Yes,yes,other,Male,27,1,1,1,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,0,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Shooter
+20090701,"Simi Valley, CA",,CA,2009,1,4,5,0.2,Work,Yes,yes,white,Male,30,1,0,0,1,0,0,0,1,1,0,1,1,0,1,None,Depression,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20090610,"US Holocause Museum, DC",,DC,2009,1,0,1,1,Military,No,yes,white,Male,89,1,0,0,1,1,0,0,1,0,0,1,1,0,0,None,None,None,None,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,Shooter
+20090601,"North Little Rock, AR",,AR,2009,1,1,2,0.5,School,No,yes,other,Male,23,1,1,0,2,0,0,1,0,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,Shooter
+20090518,"Cut Off, LA",,LA,2009,0,0,0,0,School,No,yes,white,Male,15,1,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20090426,"Hampton, VA",,VA,2009,0,2,2,0,School,Yes,yes,other,Male,18,1,3,0,0,1,0,1,0,1,1,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,1,0,1,0,1,1,1,2,1,Shooter
+20090407,"Temecula, CA",,CA,2009,1,2,3,0.333333333,Work,Yes,yes,other,Male,69,1,1,0,0,0,0,0,1,1,1,1,1,0,1,None,Depression,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20090403,"Binghamton, New York",,NY,2009,14,4,18,0.77780002,Other,Yes,Yes,Asian,Male,41,1,2,0,0,0,0,0,0,1,1,1,1,0,0,None,None,None,None,0,1,0,1,0,1,0,1,0,1,1,1,0,1,1,0,Mass
+20090329,"Carthage, North Carolina",,NC,2009,8,3,11,0.72729999,Other,Yes,Yes,white,Male,45,1,0,1,1,0,0,0,0,1,0,0,1,1,1,Zoloft,Depression,Off,2 weeks,1,0,0,0,1,1,0,0,0,1,1,1,0,1,0,0,Mass
+20090310,"Coffee/Geneva, AL",,AL,2009,10,1,11,0.909090909,Work,No,yes,white,Male,28,1,0,0,1,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Mass
+20090210,"Knoxville, TN",,TN ,2010,0,2,2,0,School,Yes,yes,white,Male,48,1,1,0,0,0,0,1,0,1,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Shooter
+20090104,"Portland, OR",,OR,2009,2,7,9,0.222222222,Work,No,yes,other,Male,24,1,1,0,0,0,0,0,1,0,1,0,1,0,1,None,Depression,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,Shooter
+20080902,"Alger, WA",,WA,2008,6,4,10,0.6,Work,No,yes,white,Male,28,1,0,0,1,0,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,1,0,1,0,0,Mass
+20080727,"Knoxville, TN",37919,TN ,2008,2,7,9,0.222222222,Religion,Yes,yes,white,Male,58,1,0,0,0,1,0,0,1,1,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,Shooter
+20080625,"Henderson, Kentucky",,KY,2008,6,1,7,0.85710001,Work,No,Yes,white,Male,25,1,1,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Mass
+20080528,"Winnemucca, NV",,NV,2008,2,2,4,0.5,Work,Yes,yes,other,Male,30,1,1,0,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,0,0,1,0,1,1,1,0,1,1,0,1,1,1,0,0,Shooter
+20080303,"West Palm Beach, FL",,FL,2008,1,4,5,0.2,Work,No,yes,other,Male,60,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,Shooter
+20080214,"DeKalb, Illinois",,IL,2008,6,21,27,0.22220001,School,Yes,Yes,white,Male,27,1,3,0,1,0,0,1,0,1,0,0,1,1,1,Prozac,Depression,Off,2 weeks,0,1,0,1,0,1,0,0,1,0,0,1,0,1,3,0,Mass
+20080208,"Baton Rouge, LA",,LA,2008,2,0,2,1,School,No,No,other,Female,23,0,1,0,0,0,0,1,0,0,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20080207,"Kirkwood, Missouri",,MO,2008,6,2,8,0.75,Other,No,No,black,Male,52,0,1,1,0,0,0,0,0,0,1,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,Mass
+20071209,"Arvada, CO",,CO,2007,4,5,9,0.444444444,Work,Yes,yes,white,Male,24,1,2,0,1,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Mass
+20071205,"Omaha, Nebraska",,NE,2007,9,4,13,0.69230002,Other,Yes,No,white,Male,19,0,0,0,0,1,0,0,0,1,0,0,1,1,1,Zoloft,Depression,Off,Month,0,1,0,1,1,1,0,0,0,1,1,0,1,0,1,1,Mass
+20071010,"Cleveland, OH",,OH,2007,0,4,4,0,Work,No,yes,white,Male,14,1,2,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,Shooter
+20071008,"Simi Valley, CA",,CA,2007,1,2,3,0.333333333,Work,No,yes,white,Male,29,1,1,0,0,0,0,0,1,0,0,1,1,0,1,None,Depression,None,None,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20071007,"Crandon, Wisconsin",,WI,2007,6,1,7,0.85710001,Other,No,Yes,white,Male,20,1,0,0,0,1,0,0,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,Mass
+20071004,"Alexandrai, LA",,LA,2007,2,3,5,0.4,Work,Yes,yes,white,Male,63,1,1,0,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20070830,"Bronx, NY",,NY,2007,1,2,3,0.333333333,Work,Yes,yes,other,Male,44,1,1,0,0,0,0,0,1,1,1,1,1,0,0,None,None,None,None,1,0,0,0,0,1,0,1,0,1,1,1,0,1,0,0,Shooter
+20070416,"Blacksburg, Virginia",,VA,2007,33,23,56,0.58929998,School,Yes,Yes,Asian,Male,23,1,2,0,0,0,0,1,0,1,1,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,1,0,1,0,1,1,1,2,0,Mass
+20070305,"Signal Hill, CA",,CA,2007,0,3,3,0,Work,No,Yes,Latino,Male,68,1,1,0,0,0,0,0,1,0,1,1,1,0,0,None,None,None,None,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20070212,"Salt Lake City, Utah",,UT,2007,6,4,10,0.60000002,Other,No,No,white,Male,18,0,0,1,1,0,0,0,0,0,0,0,1,1,1,Prozac,Depression,Off,2 weeks,0,0,1,0,1,0,0,0,0,1,0,0,1,1,0,0,Mass
+20070212,"Philadelphia, PA",,PA,2007,3,1,4,0.75,Work,No,Yes,Black,Male,44,1,1,0,0,1,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,1,2,1,Spree
+20061002,"Lancaster County, Pennsylvania",,PA,2006,6,5,11,0.54549998,School,No,Yes,white,Male,32,1,1,0,1,1,0,1,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Mass
+20060824,"Essex, VT",,VT,2006,2,2,4,0.5,School,No,No,white,Male,26,0,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,Spree
+20060728,"Seattle, WA",,WA,2006,1,5,6,0.166666667,Religious,No,Yes,Other,Male,30,1,2,0,0,0,1,0,0,0,1,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,1,0,1,2,0,Shooter
+20060625,"Denver, CO",,CO,2006,1,5,6,0.166666667,Work,No,Yes,white,Male,22,1,1,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,0,1,1,1,0,0,0,0,1,1,0,1,1,1,1,Shooter
+20060325,"Capitol Hill, Washington",,WA,2006,7,2,9,0.77780002,Other,No,Yes,white,Male,28,1,2,0,1,1,0,0,0,0,0,0,1,1,1,Welbutrin,None,None,None,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,1,Mass
+20060314,"Reno, NV",,NV,2006,0,6,0,0,School,No,No,White,Male,14,0,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,Shooter
+20060130,"Goleta, California",,CA,2006,8,0,8,1,Work,Yes,Yes,white,Female,44,1,1,0,0,0,0,0,1,1,0,1,1,0,0,None,None,None,None,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Spree
+20051120,"Tacoma, WA",,WA,2005,0,6,6,0,Other,No,Yes,Latino,Male,20,1,1,0,0,1,0,0,0,0,1,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,1,Shooter
+20050808,"Colton, CA",,CA,2005,3,3,6,0.5,Other,No,Yes,Black,Male,35,1,1,0,0,0,0,0,0,0,0,1,1,0,0,None,None,None,None,1,0,0,1,1,1,1,1,0,1,1,1,0,1,1,1,Spree
+20050321,"Red Lake, Minnesota",,MN,2005,10,5,15,0.66670001,School,Yes,No,Native American,Male,16,0,2,0,1,0,0,1,0,1,1,0,1,1,1,Prozac,Depression,Off,Month,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,Spree
+20050312,"Brookfield, Wisconsin",,WI,2005,7,4,11,0.63639998,Religious,Yes,Yes,white,Male,44,1,1,0,0,0,1,0,0,1,0,0,1,0,0,None,None,None,None,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,Mass
+20050126,"Toledo, OH",,OH,2005,1,2,3,0.3333,Work,No,Yes,white,Male,54,1,0,0,1,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,Shooter
+20041208,"Columbus, Ohio",,OH,2004,5,7,12,0.41670001,Other,Yes,Yes,white,Male,25,1,1,0,0,0,0,0,0,1,0,0,1,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,Mass
+20041121,"Meteor, WI",,WI,2004,6,2,8,0.75,Other,No,Yes,Asian,Male,36,1,0,0,0,1,0,0,0,0,1,0,1,0,0,None,None,None,None,1,0,0,1,0,0,0,0,0,1,1,0,0,1,1,1,Mass
+20041118,"St Pettersburg, Fl",,FL,2004,2,1,3,0.666666,Other,No,Yes,White,Male,25,1,1,0,0,0,0,0,0,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,1,Spree
+20040702,"Kansas City, KS",,KS,2004,6,2,8,0.75,Work,No,Yes,Black,Male,21,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,0,0,0,1,1,Mass
+20031106,"Chester, OH",,OH,2003,2,3,5,0.4,Work,No,Yes,white,Male,50,1,2,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0,Spree
+20030924,"Cold Spring, MN",,MN,2003,2,0,2,1,School,No,Yes,white,Male,15,1,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,Shooter
+20030827,"Chicago, IL",,IL,2003,6,0,6,1,Work,No,Yes,other,Male,36,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,0,1,1,1,1,0,0,1,0,0,1,0,1,1,0,Mass
+20030819,"Andover, OH",,OH,2003,1,2,3,0.3333,Work,No,Yes,white,Male,32,1,4,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,1,0,1,2,0,Spree
+20030728,"Boyton, FL",,FL,2003,3,0,3,1,Work,No,Yes,Latino,Male,45,1,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,Spree
+20030708,"Meridian, Mississippi",,MS,2003,7,8,15,0.46669999,Work,Yes,Yes,white,Male,48,1,1,1,1,2,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Mass
+20030701,"Jefferson City, MO",,MO,2003,3,5,8,0.375,Work,No,Yes,white,Male,25,1,1,0,0,0,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,1,1,0,Spree
+20030509,"Cleveland, OH",,OH,2003,1,2,3,0.3333,School,No,Yes,Other,Male,62,1,1,0,0,1,0,1,0,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,1,0,1,0,1,Shooter
+20030225,Huntsville AL,,AL,2003,4,1,5,0.8,Other,No,Yes,Black,Male,23,1,1,0,0,0,0,0,0,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,Spree
+20021026,"Sallisaw, OK",,OK,2002,2,8,10,0.2,Other,No,Yes,Black,Male,18,1,0,0,1,0,0,0,0,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,Spree
+20020704,"Los Angeles, CA",,CA,2002,2,2,4,0.5,Other,No,Yes,other,Male,43,1,2,0,0,0,0,0,0,0,1,1,1,0,0,None,None,None,None,0,0,1,1,1,1,1,1,0,1,1,1,0,1,1,0,Shooter
+20020322,"South Bend, IN",,IN,2002,4,5,9,0.444444444,Work,No,Yes,white,Male,54,1,0,0,1,1,0,0,1,0,0,0,1,0,0,None,None,None,None,0,1,0,1,1,1,0,0,0,1,1,0,0,1,1,0,Spree
+20020116,"Grundy, VA",,VA,2002,3,3,6,0.5,School,No,Yes,white,Male,43,1,1,0,0,0,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,1,0,1,0,1,1,1,0,0,Spree
+20011206,"Goshen, IN",,IN,2001,1,6,7,0.142857143,Work,No,Yes,white,Male,36,1,0,0,1,0,0,1,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,1,0,0,0,1,1,0,0,1,0,0,Shooter
+20010423,"San jose, CA",,CA,2001,1,3,4,0.25,Work,No,Yes,white,Female,36,1,1,0,0,0,0,0,1,0,0,1,1,0,0,None,None,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20010322,"El Cajon, CA",,CA,2001,0,5,5,0,School,No,Yes,white,Male,18,1,1,0,1,0,0,1,0,0,0,1,1,0,0,None,None,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Shooter
+20010205,"Santee, CA",,CA,2001,2,13,15,0.133333333,School,No,Yes,white,Male,15,1,1,0,0,0,0,1,0,0,0,1,1,0,0,None,None,None,None,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Spree
+20010205,"Melrose Park, Illinois",,IL,2001,5,4,9,0.55559999,Work,No,Yes,black,Male,66,1,0,1,1,2,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,0,1,0,0,1,0,0,1,0,1,0,0,Mass
+20010109,"Houston, TX",,TX,2001,5,0,5,1,Other,No,Yes,Asian,Male,54,1,1,0,0,0,0,0,0,0,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Spree
+20001226,"Wakefield, Massachusetts",,MA,2000,7,0,7,1,Work,Yes,Yes,white,Male,42,1,1,0,1,1,0,0,1,1,0,1,1,1,1,Luvox,Depression,On,2 weeks,1,0,0,1,0,1,0,1,1,1,1,1,1,1,1,1,Mass
+19991230,"Tampa, Florida",,FL,1999,5,3,8,0.625,Work,Yes,Yes,Latino,Male,36,1,1,1,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,Mass
+19991102,"Honolulu, Hawaii",,HI,1999,7,0,7,1,Work,Yes,Yes,Asian,Male,40,1,1,0,0,0,0,0,1,1,1,1,1,0,0,None,None,None,None,1,0,0,1,0,1,1,1,1,1,1,1,0,1,1,0,Mass
+19990915,"Fort Worth, Texas",,TX,1999,8,7,15,0.53329998,Religious,Yes,Yes,white,Male,47,1,2,0,0,0,1,0,0,1,0,0,1,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,1,1,0,1,1,1,0,Mass
+19990729,"Atlanta, Georgia",,GA,1999,9,13,22,0.4091,Work,Yes,Yes,white,Male,44,1,3,1,0,0,0,0,1,1,0,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,Spree
+19990420,"Littleton, Colorado",,CO,1999,15,24,39,0.38460001,School,Yes,No,white,Male,18,0,1,0,2,1,0,1,0,1,0,0,1,1,1,Luvox/Zoloft,Depression,On,Month,0,1,0,1,1,0,0,0,0,1,1,0,1,1,1,2,Mass
+19980521,"Springfield, Oregon",,OR,1998,4,25,29,0.13789999,School,Yes,No,white,Male,15,0,2,0,0,1,0,1,0,1,0,0,1,0,1,None,Depression,None,None,0,0,1,1,1,0,0,0,0,1,1,0,1,1,2,0,Spree
+19980324,"Jonesboro, Arkansas",,AR,1998,5,10,15,0.33329999,School,No,No,white,Male,13,0,2,5,0,2,0,1,0,0,0,0,1,0,0,None,None,None,None,1,0,0,1,1,0,0,0,0,1,0,0,1,0,1,0,Mass
+19980306,"Newington, Connecticut",,CT,1998,5,1,6,0.83329999,Work,Yes,Yes,white,Male,35,1,1,0,0,0,0,0,1,1,0,1,1,1,1,Zoloft,Depression,Off,Month,0,1,0,0,1,1,0,1,0,1,1,1,0,1,1,0,Mass
+19971218,"Orange, California",,CA,1997,5,2,7,0.71429998,Work,No,Yes,Latino,Male,41,1,0,0,0,1,0,0,1,0,1,1,1,0,0,None,None,None,None,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,Mass
+19970915,"Aiken, South Carolina",,SC,1997,4,3,7,0.57139999,Work,No,No,black,Male,43,0,1,0,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,Mass
+19960209,"Fort Lauderdale, Florida",,FL,1996,6,1,7,0.85710001,Work,Yes,Yes,black,Male,41,1,1,1,0,0,0,0,1,1,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,Mass
+19950403,"Corpus Christi, Texas",,TX,1995,6,0,6,1,Work,No,Yes,Other,Male,28,1,1,1,0,0,0,0,1,0,1,0,1,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,Mass
+19940620,"Fairchild Air Force Base, Washington",,WA,1994,5,23,28,0.1786,Other,Yes,Yes,white,Male,20,1,0,0,0,1,0,0,0,1,0,0,1,1,1,Prozac,Depression,Off,Month,0,0,1,1,1,0,0,0,0,1,1,1,0,1,1,1,Mass
+19931214,"Aurora, Colorado",,CO,1993,4,1,5,0.80000001,Work,no,yes,black,Male,19,0,1,0,0,0,0,0,1,0,1,0,0,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,Mass
+19931207,"Garden City, New York",,NY,1993,6,19,25,0.23999999,Other,Yes,Yes,black,Male,35,1,1,0,0,0,0,0,0,1,1,1,0,0,0,None,None,None,None,1,0,0,1,1,1,0,1,0,1,1,1,0,1,1,0,Mass
+19930806,"Fayetteville, North Carolina",,NC,1993,4,8,12,0.33329999,Other,No,Yes,white,Male,22,1,0,0,2,1,0,0,0,0,0,0,0,0,0,None,None,None,None,1,0,0,0,1,1,0,0,0,1,1,1,0,1,0,0,Mass
+19930701,"San Francisco, California",,CA,1993,9,6,15,0.60000002,Other,No,No,white,Male,55,0,3,0,0,0,0,0,0,0,0,1,0,0,0,None,None,None,None,0,1,0,1,1,1,1,1,0,1,0,1,0,1,3,2,Mass
+19921015,"Watkins Glen, New York",,NY,1992,5,0,5,1,Other,Yes,Yes,white,Male,50,1,1,0,0,0,0,0,0,1,0,1,0,0,0,None,None,None,None,0,1,0,1,1,1,0,1,0,1,1,1,0,1,0,0,Mass
+19920501,"Olivehurst, California",,CA,1992,4,10,14,0.28569999,School,No,Yes,white,Male,20,1,0,0,1,1,0,1,0,0,0,1,0,1,1,Prozac,Depression,Off,2 weeks,1,0,0,0,1,1,1,1,0,1,1,1,0,1,0,0,Mass
+19911114,"Royal Oak, Michigan",,MI,1991,5,5,10,0.5,Work,Yes,Yes,white,Male,31,1,0,0,0,1,0,0,1,1,0,0,0,0,0,None,None,None,None,0,1,0,0,0,1,1,0,0,1,1,0,1,1,0,0,Mass
+19911101,"Iowa City, Iowa",,IA,1991,6,1,7,0.85710001,School,Yes,Yes,Asian,Male,28,1,0,1,0,0,0,1,0,0,1,0,0,0,0,None,None,None,None,0,1,0,0,0,1,0,0,0,0,1,1,1,1,0,0,Mass
+19911016,"Killeen, Texas",,TX,1991,24,20,44,0.54549998,Other,No,Yes,white,Male,35,1,2,0,0,0,0,0,0,0,0,0,0,0,0,None,None,None,None,0,1,0,0,1,0,0,0,0,1,1,0,1,0,2,0,Mass
+19900618,"Jacksonville, Florida",,FL,1990,10,4,14,0.71429998,Other,No,Yes,black,Male,42,1,0,1,0,1,0,0,0,0,1,0,0,0,0,None,None,None,None,0,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,Mass
+19890914,"Louisville, Kentucky",,KY,1989,9,12,21,0.42860001,Work,Yes,Yes,white,Male,47,1,3,1,0,1,0,0,1,1,0,0,0,1,1,Prozac,Depression,Off,Month,0,1,0,1,1,0,0,0,0,1,1,0,0,1,1,3,Mass
+19890117,"Stockton, California",,CA,1989,6,29,35,0.1714,School,Yes,Yes,white,Male,26,1,1,0,0,1,0,1,0,1,0,1,0,0,0,None,None,None,None,0,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,Mass
+19880216,"Sunnyvale, California",,CA,1988,7,4,11,0.63639998,Work,Yes,Yes,white,Male,39,1,2,2,2,1,0,0,1,1,0,0,0,0,0,None,None,None,None,1,0,0,0,1,1,1,0,0,1,0,1,0,1,0,0,Mass
+19870423,"Palm Bay, Florida",,FL,1987,6,14,20,0.30000001,Other,Yes,Yes,white,Male,59,1,0,1,1,1,0,0,0,1,0,0,0,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,Spree
+19860820,"Edmond, Oklahoma",,OK,1986,15,6,21,0.71429998,Work,Yes,Yes,white,Male,44,1,3,0,0,0,0,0,1,0,0,0,0,1,1,Prozac/Zoloft,Depression,Off,Month,0,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,Mass
+19840718,"San Ysidro, California",,CA,1984,22,19,41,0.53659999,Other,Yes,Yes,white,Male,41,1,1,0,1,1,0,0,0,1,0,0,0,0,0,None,None,None,None,0,0,1,1,1,1,1,0,0,1,0,1,0,1,1,1,Mass
+19840629,"Dallas, Texas",,TX,1984,6,1,7,0.85710001,Other,Yes,No,white,Male,39,0,1,0,0,0,0,0,0,1,0,0,0,0,0,None,None,None,None,1,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,Mass
+19820820,"Miami, Florida",,FL,1982,8,3,11,0.72729999,Other,Yes,Yes,white,Male,51,1,0,0,1,0,0,0,0,1,0,0,0,0,0,None,None,None,None,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,Mass
