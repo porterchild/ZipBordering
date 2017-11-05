@@ -2,6 +2,7 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 import time
+from bs4.element import Comment
 #############################################
 import random
 #These were pulled from https://techblog.willshouse.com/2012/01/03/most-common-user-agents/ if you want more -
@@ -37,6 +38,19 @@ def get_random_header():
     random_index = random.randint(0, len(possible_headers) - 1)
     return possible_headers[random_index]
 ######################################################
+def tag_visible(element):
+    if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
+        return False
+    if isinstance(element, Comment):
+        return False
+    return True
+
+
+def text_from_html(body):
+    soup = BeautifulSoup(body, 'html.parser')
+    texts = soup.findAll(text=True)
+    visible_texts = filter(tag_visible, texts)  
+    return u" ".join(t.strip() for t in visible_texts)
 
 
 query_begin = "https://www.google.com/search?q="
@@ -50,7 +64,7 @@ with open("Shootings data 10-06-2017 .csv", "r") as file:
 		location = shooting[1]
 		year = shooting[4]
 		#now build search query
-		query_middle = "shooting+" +date+"+"+location.replace(" ","+") +"+"+year+"+wikipedia"
+		query_middle = "shooting+" +date+"+"+location.replace(" ","+") +"+"+year#+"+wikipedia"
 		query = query_begin + query_middle + query_end
 		print query
 		downloaded_search_page = requests.get(query, get_random_header())
@@ -58,8 +72,12 @@ with open("Shootings data 10-06-2017 .csv", "r") as file:
 		div = soup.find("div",{"class":"g"}).find("h3", {"class": "r"})
 		print div
 		link = div.find("a").get("href")[7:]
+		middle = link.find("&")
+		link = link[0:middle]
 		print link
 		downloaded_article = requests.get(link, get_random_header())
-		soup = BeautifulSoup(downloaded_article.text, "html.parser")
-		print soup.text
+		text = text_from_html(downloaded_article.text)
+		#soup = BeautifulSoup(downloaded_article.text, "html.parser")
+		#print soup.text.encode('utf-8')
+		print text
 		time.sleep(10)
