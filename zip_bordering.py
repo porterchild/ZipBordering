@@ -11,19 +11,28 @@ import zipcode as zp
 def pull_from_hardcoded_zips(zipcode, dist):
 	with open("missing_zips.csv", "r") as file:
 		zips = csv.reader(file)
-		for line in zips:
+		for line in zips:#
 			if str(line[0]) == str(zipcode) and str(line[1]) == str(dist):
 				#print line[2:]
 				return line[2:]
+		print "this zip is still missing: " + str(zipcode)
+		raise ValueError('')
+
 def pull_from_hardcoded_coors(zipcode):
 	with open("missing_coors.csv", "r") as file:
 		coordinates = csv.reader(file)
 		coor = []
 		for line in coordinates:
 			if str(line[0]) == str(zipcode):
-				coor[0] = float(line[1])
-				coor[1] = float(line[2])
+				coor = line[1:3]
+				coor[0] = float(coor[0])
+				coor[1] = float(coor[1])
+				print "just kidding, found them"
 				return tuple(coor)	
+		print "this coor is still missing: " + str(zipcode)
+		#raise ValueError('')
+		string = raw_input()
+
 def get_radii(coor, event_zip):
 	tfmile = [str(x).replace("<Zip: ", "").replace(">", "") for x in zp.isinradius(coor,25)]
 	fifmile = [str(x).replace("<Zip: ", "").replace(">", "") for x in zp.isinradius(coor,50)]
@@ -71,6 +80,8 @@ with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_ra
 			coor = pull_from_hardcoded_coors(event_zip)
 			print coor
 			string = raw_input()
+			tfmile, fifmile, hundmile = get_radii(coor, event_zip)
+			
 			
 		output_line = []
 		count = 0
