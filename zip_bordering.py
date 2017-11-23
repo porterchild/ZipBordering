@@ -48,16 +48,20 @@ def get_radii(coor, event_zip):
 
 
 import csv
-with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_radius.csv", "a") as outputfile:
+#with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_radius.csv", "a") as outputfile:
+with open("zips.csv", "r") as datafile, open("shootings_radius1.csv", "a") as outputfile:
 	data = csv.reader(datafile)
 	output = csv.writer(outputfile)
 	next(data, None) #skip labels
 	for row in data:#every shooting
-		date = row[0]
+		date = row[1]
+		#date = row[0]
 		event_zip = row[2]
 		if event_zip is '':
 			print "missing event_zip"
 			continue
+		if len(event_zip) == 4:#missing leading zero
+			event_zip = '0' + event_zip
 		database = csv.reader(open("US Zip Codes from 2013 Government Data"))
 		coor = []
 		tfmile = []
