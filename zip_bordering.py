@@ -30,8 +30,7 @@ def pull_from_hardcoded_coors(zipcode):
 				print "just kidding, found them"
 				return tuple(coor)	
 		print "this coor is still missing: " + str(zipcode)
-		#raise ValueError('')
-		string = raw_input()
+		raise ValueError('')
 
 def get_radii(coor, event_zip):
 	tfmile = [str(x).replace("<Zip: ", "").replace(">", "") for x in zp.isinradius(coor,25)]
@@ -56,7 +55,6 @@ with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_ra
 	for row in data:#every shooting
 		date = row[0]
 		event_zip = row[2]
-		print type(event_zip)
 		if event_zip is '':
 			print "missing event_zip"
 			continue
@@ -79,7 +77,7 @@ with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_ra
 			print "no coordinates for " + str(event_zip)
 			coor = pull_from_hardcoded_coors(event_zip)
 			print coor
-			string = raw_input()
+			#string = raw_input()
 			tfmile, fifmile, hundmile = get_radii(coor, event_zip)
 			
 			
@@ -88,20 +86,20 @@ with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_ra
 		for zipcode in tfmile:
 			output_line =[date, zipcode, 1, 1, 1, event_zip] 
 			print output_line
-			#output.writerow(output_line)
+			output.writerow(output_line)
 			count += 1
 		for zipcode in fifmile:
 			if zipcode not in tfmile:
 				count += 1
 				output_line = [date, zipcode, 0, 1, 1, event_zip] 
-				#output.writerow(output_line)
+				output.writerow(output_line)
 				print output_line
 		hundcount = 0
 		for zipcode in hundmile:
 			if zipcode not in tfmile and zipcode not in fifmile:
 				hundcount += 1
 				output_line = [date, zipcode, 0, 0, 1, event_zip] 
-				#output.writerow(output_line)
+				output.writerow(output_line)
 				print output_line
 		#print "fifties and twenties"
 		#print count
