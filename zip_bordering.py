@@ -49,17 +49,21 @@ def get_radii(coor, event_zip):
 
 
 import csv
-with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_radius.csv", "a") as outputfile:
+#with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_radius.csv", "a") as outputfile:
+with open("zips.csv", "r") as datafile, open("shootings_radius1.csv", "a") as outputfile:
 	data = csv.reader(datafile)
 	output = csv.writer(outputfile)
 	next(data, None) #skip labels
 	for row in data:#every shooting
-		date = row[0]
+		date = row[1]
+		#date = row[0]
 		event_zip = row[2]
 		print type(event_zip)
 		if event_zip is '':
 			print "missing event_zip"
 			continue
+		if len(event_zip) == 4:#missing leading zero
+			event_zip = '0' + event_zip
 		database = csv.reader(open("US Zip Codes from 2013 Government Data"))
 		coor = []
 		tfmile = []
@@ -88,20 +92,20 @@ with open("Shootings-data-10-31-2017-.csv", "r") as datafile, open("shootings_ra
 		for zipcode in tfmile:
 			output_line =[date, zipcode, 1, 1, 1, event_zip] 
 			print output_line
-			#output.writerow(output_line)
+			output.writerow(output_line)
 			count += 1
 		for zipcode in fifmile:
 			if zipcode not in tfmile:
 				count += 1
 				output_line = [date, zipcode, 0, 1, 1, event_zip] 
-				#output.writerow(output_line)
+				output.writerow(output_line)
 				print output_line
 		hundcount = 0
 		for zipcode in hundmile:
 			if zipcode not in tfmile and zipcode not in fifmile:
 				hundcount += 1
 				output_line = [date, zipcode, 0, 0, 1, event_zip] 
-				#output.writerow(output_line)
+				output.writerow(output_line)
 				print output_line
 		#print "fifties and twenties"
 		#print count
